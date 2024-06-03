@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 body{
 background-color:#0b1e29;
 margin: 0;
@@ -21,7 +22,6 @@ bottom: 0px;
 left: 0px;
 opacity: 0.55;
 
-
 }
 
 
@@ -29,40 +29,154 @@ opacity: 0.55;
 header{
     position: relative;
     width: 100%;
-    height: 10%;
+    height: 5%;
     margin-top: -55%;
     font-size: 15px;
-    
-  
-}
-
-
-.unknown{
-    border: 0;
-    clear:both;
-    display:block;
-    width: 3000%;               
-    background-color:#66665d;
-    height: 1px;
-    margin-left: 0%;
-    margin-top: -50%;
-    float: left;
+    border-bottom:2px solid grey;
+    float: right;
+color: azure;
 
 }
+
+
+
 
 .left{
     float: left;
-    display: flex;
-flex-direction: column; 
-flex-wrap: wrap;  
+   
 }
 
 .right{
     float: right;
-   
 }
 
 .headright{
     position: relative;
+height: 5%;
+width: 40%;
+float: right;
+color: azure;
+font-size: 18px;
+
+}
+
+.active{ box-sizing: border-box;
+    border: 1px solid coral;}
+
+a{
+    color: azure;
+
+}
+
+.headright a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+.head{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    margin-left: -100%;
+    margin-top: -45%;
+}
+
+.logo{
+    position: relative;
+    font-family: "Amaranth";
+    font-weight: 900;
+    float: left;
+    font-size: 30px;
+    margin-top: -20px;
+
+}
+.chari{
+    color: coral;
+    float: left;
+
+}
+
+.team{
+    color: aliceblue;
     float: right;
 }
+
+nav{
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    height: 60%;
+    margin-left: -100%;
+    margin-top: 10%;
+}
+
+
+.arrowleft{
+    width: 10%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+
+   
+
+}
+
+.middle{
+    width: 80%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.arrowright{
+    width: 10%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-circle-left{
+    padding-left: 85%;
+    color: darkgrey;
+}
+
+.fa-arrow-circle-right{
+    color: darkgrey;
+
+}
+
+.middlewords{
+    padding-left: 20%;
+    font-family: "Amaranth";
+    color: azure;
+}
+
+h1{
+font-weight: 900;
+font-size: 35px;
+}
+
+h2{
+font-weight: 400;
+font-size: 12px;
+}
+
+.learnmore :hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .learnmore{
+    background-color: coral;
+width: 25%;
+height: 25%;
+font-size: 20px;
+border-radius: 10px;
+  }
+    
+      
+     
